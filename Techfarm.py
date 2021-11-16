@@ -21,11 +21,11 @@ while 1:
        #print(sensor_data2)
        
        if (sensor_type == 1):
-           print("hello1")
+           #print("hello1")
            data={'sensor Type': 'Soil Moisture','Sensor No': sensor_no, 'Soil Moisture Level':sensor_data1}
        
        elif (sensor_type == 2):
-             print("hello2")
+             #print("hello2")
              data={'sensor Type': 'DHT11','Sensor No': sensor_no, 'Temperature':sensor_data1,'Humidity':sensor_data2}
        
        data={'sensor Type': 'Soil Moisture','Sensor No': sensor_no, 'Soil Moisture Level':sensor_data1}
